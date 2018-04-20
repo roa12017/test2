@@ -6,7 +6,7 @@ public class CameraController : MonoBehaviour
     public GameObject player; // 玉のオブジェクト
 
     private Vector3 offset; // 玉からカメラまでの距離
-
+    //1239123
     void Start()
     {
         offset = transform.position - player.transform.position;
